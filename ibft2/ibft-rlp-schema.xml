@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSON>
+    <_X24_schema>http://json-schema.org/draft-07/schema#</_X24_schema>
+    <_X24_id>http://org.hyperledger.besu/cli_rlp_ibft_extra_data.json</_X24_id>
+    <type>array</type>
+    <definitions></definitions>
+    <title>IBFT extra data</title>
+    <description>JSON format used as input to generate an IBFT extra data RLP string</description>
+    <items>
+        <_X24_id>#/address</_X24_id>
+        <type>string</type>
+        <title>Validator address</title>
+        <description>The validator node address</description>
+        <default></default>
+        <examples>ddf1ce23cf38b04062745c78f35551aef8792886</examples>
+        <examples>52d1d9d7b48ebbb0759fe86a7ea63c54314aaa0e</examples>
+        <examples>d61e9690ba47e95546f568d0db336c651bdec25c</examples>
+        <pattern>^([0-9a-f]{40})$</pattern>
+    </items>
+</JSON>
