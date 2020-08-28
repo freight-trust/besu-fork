@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/GenesisTests/template-poa.json
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/JSONSchema/definitions.json
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/JSONSchema/genesis-filler-schema.json
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/JSONSchema/genesis-schema.json
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/Makefile
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/src/GenesisTestsFiller/template.json
+https://raw.githubusercontent.com/ehildenb/ethereum-tests/4e24d411d67cde54bd1343501b6468a3d4f1489e/test.py
+https://github.com/ethereum/tests/compare/develop...ehildenb:genesis-schema

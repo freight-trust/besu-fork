@@ -1,0 +1,2693 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"config": {
+			"type": "object",
+			"properties": {
+				"chainId": {
+					"type": "integer"
+				},
+				"homesteadBlock": {
+					"type": "integer"
+				},
+				"eip150Block": {
+					"type": "integer"
+				},
+				"eip150Hash": {
+					"type": "string"
+				},
+				"eip155Block": {
+					"type": "integer"
+				},
+				"eip158Block": {
+					"type": "integer"
+				},
+				"eip160Block": {
+					"type": "integer"
+				},
+				"byzantiumBlock": {
+					"type": "integer"
+				},
+				"constantinopleBlock": {
+					"type": "integer"
+				},
+				"clique": {
+					"type": "object",
+					"properties": {
+						"period": {
+							"type": "integer"
+						},
+						"epoch": {
+							"type": "integer"
+						}
+					},
+					"required": ["period", "epoch"]
+				}
+			},
+			"required": [
+				"chainId",
+				"homesteadBlock",
+				"eip150Block",
+				"eip150Hash",
+				"eip155Block",
+				"eip158Block",
+				"eip160Block",
+				"byzantiumBlock",
+				"constantinopleBlock",
+				"clique"
+			]
+		},
+		"coinbase": {
+			"type": "string"
+		},
+		"difficulty": {
+			"type": "string"
+		},
+		"extraData": {
+			"type": "string"
+		},
+		"gasLimit": {
+			"type": "string"
+		},
+		"mixHash": {
+			"type": "string"
+		},
+		"nonce": {
+			"type": "string"
+		},
+		"timestamp": {
+			"type": "string"
+		},
+		"alloc": {
+			"type": "object",
+			"properties": {
+				"0000000000000000000000000000000000000000": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000001": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000002": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000003": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000004": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000005": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000006": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000007": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000008": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000009": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000000f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000010": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000011": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000012": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000013": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000014": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000015": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000016": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000017": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000018": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000019": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000001f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000020": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000021": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000022": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000023": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000024": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000025": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000026": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000027": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000028": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000029": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000002f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000030": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000031": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000032": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000033": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000034": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000035": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000036": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000037": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000038": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000039": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000003f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000040": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000041": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000042": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000043": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000044": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000045": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000046": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000047": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000048": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000049": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000004f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000050": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000051": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000052": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000053": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000054": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000055": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000056": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000057": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000058": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000059": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000005f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000060": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000061": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000062": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000063": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000064": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000065": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000066": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000067": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000068": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000069": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000006f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000070": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000071": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000072": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000073": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000074": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000075": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000076": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000077": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000078": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000079": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000007f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000080": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000081": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000082": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000083": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000084": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000085": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000086": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000087": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000088": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000089": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000008f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000090": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000091": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000092": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000093": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000094": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000095": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000096": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000097": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000098": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0000000000000000000000000000000000000099": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009a": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009b": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009c": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009d": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009e": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"000000000000000000000000000000000000009f": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000a9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000aa": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ab": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ac": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ad": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ae": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000af": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000b9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ba": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000bb": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000bc": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000bd": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000be": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000bf": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000c9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ca": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000cb": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000cc": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000cd": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ce": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000cf": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000d9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000da": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000db": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000dc": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000dd": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000de": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000df": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000e9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ea": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000eb": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ec": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ed": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ee": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ef": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f0": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f1": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f2": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f3": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f4": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f5": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f6": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f7": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f8": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000f9": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000fa": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000fb": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000fc": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000fd": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000fe": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"00000000000000000000000000000000000000ff": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0x009fcc115ad9ef38288a82a014dea30f63a84383": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				},
+				"0x0015c90d0e12186bc51c9d51aff4d3fb6e984291": {
+					"type": "object",
+					"properties": {
+						"balance": {
+							"type": "string"
+						}
+					},
+					"required": ["balance"]
+				}
+			},
+			"required": [
+				"0000000000000000000000000000000000000000",
+				"0000000000000000000000000000000000000001",
+				"0000000000000000000000000000000000000002",
+				"0000000000000000000000000000000000000003",
+				"0000000000000000000000000000000000000004",
+				"0000000000000000000000000000000000000005",
+				"0000000000000000000000000000000000000006",
+				"0000000000000000000000000000000000000007",
+				"0000000000000000000000000000000000000008",
+				"0000000000000000000000000000000000000009",
+				"000000000000000000000000000000000000000a",
+				"000000000000000000000000000000000000000b",
+				"000000000000000000000000000000000000000c",
+				"000000000000000000000000000000000000000d",
+				"000000000000000000000000000000000000000e",
+				"000000000000000000000000000000000000000f",
+				"0000000000000000000000000000000000000010",
+				"0000000000000000000000000000000000000011",
+				"0000000000000000000000000000000000000012",
+				"0000000000000000000000000000000000000013",
+				"0000000000000000000000000000000000000014",
+				"0000000000000000000000000000000000000015",
+				"0000000000000000000000000000000000000016",
+				"0000000000000000000000000000000000000017",
+				"0000000000000000000000000000000000000018",
+				"0000000000000000000000000000000000000019",
+				"000000000000000000000000000000000000001a",
+				"000000000000000000000000000000000000001b",
+				"000000000000000000000000000000000000001c",
+				"000000000000000000000000000000000000001d",
+				"000000000000000000000000000000000000001e",
+				"000000000000000000000000000000000000001f",
+				"0000000000000000000000000000000000000020",
+				"0000000000000000000000000000000000000021",
+				"0000000000000000000000000000000000000022",
+				"0000000000000000000000000000000000000023",
+				"0000000000000000000000000000000000000024",
+				"0000000000000000000000000000000000000025",
+				"0000000000000000000000000000000000000026",
+				"0000000000000000000000000000000000000027",
+				"0000000000000000000000000000000000000028",
+				"0000000000000000000000000000000000000029",
+				"000000000000000000000000000000000000002a",
+				"000000000000000000000000000000000000002b",
+				"000000000000000000000000000000000000002c",
+				"000000000000000000000000000000000000002d",
+				"000000000000000000000000000000000000002e",
+				"000000000000000000000000000000000000002f",
+				"0000000000000000000000000000000000000030",
+				"0000000000000000000000000000000000000031",
+				"0000000000000000000000000000000000000032",
+				"0000000000000000000000000000000000000033",
+				"0000000000000000000000000000000000000034",
+				"0000000000000000000000000000000000000035",
+				"0000000000000000000000000000000000000036",
+				"0000000000000000000000000000000000000037",
+				"0000000000000000000000000000000000000038",
+				"0000000000000000000000000000000000000039",
+				"000000000000000000000000000000000000003a",
+				"000000000000000000000000000000000000003b",
+				"000000000000000000000000000000000000003c",
+				"000000000000000000000000000000000000003d",
+				"000000000000000000000000000000000000003e",
+				"000000000000000000000000000000000000003f",
+				"0000000000000000000000000000000000000040",
+				"0000000000000000000000000000000000000041",
+				"0000000000000000000000000000000000000042",
+				"0000000000000000000000000000000000000043",
+				"0000000000000000000000000000000000000044",
+				"0000000000000000000000000000000000000045",
+				"0000000000000000000000000000000000000046",
+				"0000000000000000000000000000000000000047",
+				"0000000000000000000000000000000000000048",
+				"0000000000000000000000000000000000000049",
+				"000000000000000000000000000000000000004a",
+				"000000000000000000000000000000000000004b",
+				"000000000000000000000000000000000000004c",
+				"000000000000000000000000000000000000004d",
+				"000000000000000000000000000000000000004e",
+				"000000000000000000000000000000000000004f",
+				"0000000000000000000000000000000000000050",
+				"0000000000000000000000000000000000000051",
+				"0000000000000000000000000000000000000052",
+				"0000000000000000000000000000000000000053",
+				"0000000000000000000000000000000000000054",
+				"0000000000000000000000000000000000000055",
+				"0000000000000000000000000000000000000056",
+				"0000000000000000000000000000000000000057",
+				"0000000000000000000000000000000000000058",
+				"0000000000000000000000000000000000000059",
+				"000000000000000000000000000000000000005a",
+				"000000000000000000000000000000000000005b",
+				"000000000000000000000000000000000000005c",
+				"000000000000000000000000000000000000005d",
+				"000000000000000000000000000000000000005e",
+				"000000000000000000000000000000000000005f",
+				"0000000000000000000000000000000000000060",
+				"0000000000000000000000000000000000000061",
+				"0000000000000000000000000000000000000062",
+				"0000000000000000000000000000000000000063",
+				"0000000000000000000000000000000000000064",
+				"0000000000000000000000000000000000000065",
+				"0000000000000000000000000000000000000066",
+				"0000000000000000000000000000000000000067",
+				"0000000000000000000000000000000000000068",
+				"0000000000000000000000000000000000000069",
+				"000000000000000000000000000000000000006a",
+				"000000000000000000000000000000000000006b",
+				"000000000000000000000000000000000000006c",
+				"000000000000000000000000000000000000006d",
+				"000000000000000000000000000000000000006e",
+				"000000000000000000000000000000000000006f",
+				"0000000000000000000000000000000000000070",
+				"0000000000000000000000000000000000000071",
+				"0000000000000000000000000000000000000072",
+				"0000000000000000000000000000000000000073",
+				"0000000000000000000000000000000000000074",
+				"0000000000000000000000000000000000000075",
+				"0000000000000000000000000000000000000076",
+				"0000000000000000000000000000000000000077",
+				"0000000000000000000000000000000000000078",
+				"0000000000000000000000000000000000000079",
+				"000000000000000000000000000000000000007a",
+				"000000000000000000000000000000000000007b",
+				"000000000000000000000000000000000000007c",
+				"000000000000000000000000000000000000007d",
+				"000000000000000000000000000000000000007e",
+				"000000000000000000000000000000000000007f",
+				"0000000000000000000000000000000000000080",
+				"0000000000000000000000000000000000000081",
+				"0000000000000000000000000000000000000082",
+				"0000000000000000000000000000000000000083",
+				"0000000000000000000000000000000000000084",
+				"0000000000000000000000000000000000000085",
+				"0000000000000000000000000000000000000086",
+				"0000000000000000000000000000000000000087",
+				"0000000000000000000000000000000000000088",
+				"0000000000000000000000000000000000000089",
+				"000000000000000000000000000000000000008a",
+				"000000000000000000000000000000000000008b",
+				"000000000000000000000000000000000000008c",
+				"000000000000000000000000000000000000008d",
+				"000000000000000000000000000000000000008e",
+				"000000000000000000000000000000000000008f",
+				"0000000000000000000000000000000000000090",
+				"0000000000000000000000000000000000000091",
+				"0000000000000000000000000000000000000092",
+				"0000000000000000000000000000000000000093",
+				"0000000000000000000000000000000000000094",
+				"0000000000000000000000000000000000000095",
+				"0000000000000000000000000000000000000096",
+				"0000000000000000000000000000000000000097",
+				"0000000000000000000000000000000000000098",
+				"0000000000000000000000000000000000000099",
+				"000000000000000000000000000000000000009a",
+				"000000000000000000000000000000000000009b",
+				"000000000000000000000000000000000000009c",
+				"000000000000000000000000000000000000009d",
+				"000000000000000000000000000000000000009e",
+				"000000000000000000000000000000000000009f",
+				"00000000000000000000000000000000000000a0",
+				"00000000000000000000000000000000000000a1",
+				"00000000000000000000000000000000000000a2",
+				"00000000000000000000000000000000000000a3",
+				"00000000000000000000000000000000000000a4",
+				"00000000000000000000000000000000000000a5",
+				"00000000000000000000000000000000000000a6",
+				"00000000000000000000000000000000000000a7",
+				"00000000000000000000000000000000000000a8",
+				"00000000000000000000000000000000000000a9",
+				"00000000000000000000000000000000000000aa",
+				"00000000000000000000000000000000000000ab",
+				"00000000000000000000000000000000000000ac",
+				"00000000000000000000000000000000000000ad",
+				"00000000000000000000000000000000000000ae",
+				"00000000000000000000000000000000000000af",
+				"00000000000000000000000000000000000000b0",
+				"00000000000000000000000000000000000000b1",
+				"00000000000000000000000000000000000000b2",
+				"00000000000000000000000000000000000000b3",
+				"00000000000000000000000000000000000000b4",
+				"00000000000000000000000000000000000000b5",
+				"00000000000000000000000000000000000000b6",
+				"00000000000000000000000000000000000000b7",
+				"00000000000000000000000000000000000000b8",
+				"00000000000000000000000000000000000000b9",
+				"00000000000000000000000000000000000000ba",
+				"00000000000000000000000000000000000000bb",
+				"00000000000000000000000000000000000000bc",
+				"00000000000000000000000000000000000000bd",
+				"00000000000000000000000000000000000000be",
+				"00000000000000000000000000000000000000bf",
+				"00000000000000000000000000000000000000c0",
+				"00000000000000000000000000000000000000c1",
+				"00000000000000000000000000000000000000c2",
+				"00000000000000000000000000000000000000c3",
+				"00000000000000000000000000000000000000c4",
+				"00000000000000000000000000000000000000c5",
+				"00000000000000000000000000000000000000c6",
+				"00000000000000000000000000000000000000c7",
+				"00000000000000000000000000000000000000c8",
+				"00000000000000000000000000000000000000c9",
+				"00000000000000000000000000000000000000ca",
+				"00000000000000000000000000000000000000cb",
+				"00000000000000000000000000000000000000cc",
+				"00000000000000000000000000000000000000cd",
+				"00000000000000000000000000000000000000ce",
+				"00000000000000000000000000000000000000cf",
+				"00000000000000000000000000000000000000d0",
+				"00000000000000000000000000000000000000d1",
+				"00000000000000000000000000000000000000d2",
+				"00000000000000000000000000000000000000d3",
+				"00000000000000000000000000000000000000d4",
+				"00000000000000000000000000000000000000d5",
+				"00000000000000000000000000000000000000d6",
+				"00000000000000000000000000000000000000d7",
+				"00000000000000000000000000000000000000d8",
+				"00000000000000000000000000000000000000d9",
+				"00000000000000000000000000000000000000da",
+				"00000000000000000000000000000000000000db",
+				"00000000000000000000000000000000000000dc",
+				"00000000000000000000000000000000000000dd",
+				"00000000000000000000000000000000000000de",
+				"00000000000000000000000000000000000000df",
+				"00000000000000000000000000000000000000e0",
+				"00000000000000000000000000000000000000e1",
+				"00000000000000000000000000000000000000e2",
+				"00000000000000000000000000000000000000e3",
+				"00000000000000000000000000000000000000e4",
+				"00000000000000000000000000000000000000e5",
+				"00000000000000000000000000000000000000e6",
+				"00000000000000000000000000000000000000e7",
+				"00000000000000000000000000000000000000e8",
+				"00000000000000000000000000000000000000e9",
+				"00000000000000000000000000000000000000ea",
+				"00000000000000000000000000000000000000eb",
+				"00000000000000000000000000000000000000ec",
+				"00000000000000000000000000000000000000ed",
+				"00000000000000000000000000000000000000ee",
+				"00000000000000000000000000000000000000ef",
+				"00000000000000000000000000000000000000f0",
+				"00000000000000000000000000000000000000f1",
+				"00000000000000000000000000000000000000f2",
+				"00000000000000000000000000000000000000f3",
+				"00000000000000000000000000000000000000f4",
+				"00000000000000000000000000000000000000f5",
+				"00000000000000000000000000000000000000f6",
+				"00000000000000000000000000000000000000f7",
+				"00000000000000000000000000000000000000f8",
+				"00000000000000000000000000000000000000f9",
+				"00000000000000000000000000000000000000fa",
+				"00000000000000000000000000000000000000fb",
+				"00000000000000000000000000000000000000fc",
+				"00000000000000000000000000000000000000fd",
+				"00000000000000000000000000000000000000fe",
+				"00000000000000000000000000000000000000ff",
+				"0x009fcc115ad9ef38288a82a014dea30f63a84383",
+				"0x0015c90d0e12186bc51c9d51aff4d3fb6e984291"
+			]
+		},
+		"number": {
+			"type": "string"
+		},
+		"gasUsed": {
+			"type": "string"
+		},
+		"parentHash": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"config",
+		"coinbase",
+		"difficulty",
+		"extraData",
+		"gasLimit",
+		"mixHash",
+		"nonce",
+		"timestamp",
+		"alloc",
+		"number",
+		"gasUsed",
+		"parentHash"
+	]
+}
