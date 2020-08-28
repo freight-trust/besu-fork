@@ -1,0 +1,688 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "required": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "default": {
+              "type": "string"
+            },
+            "enum": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "title",
+            "default",
+            "enum"
+          ]
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "$ref": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "$ref"
+          ]
+        },
+        "genesis": {
+          "type": "object",
+          "properties": {
+            "$ref": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "$ref"
+          ]
+        },
+        "accounts": {
+          "type": "object",
+          "properties": {
+            "$ref": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "$ref"
+          ]
+        }
+      },
+      "required": [
+        "version",
+        "params",
+        "genesis",
+        "accounts"
+      ]
+    },
+    "definitions": {
+      "type": "object",
+      "properties": {
+        "Params": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "required": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "properties": {
+              "type": "object",
+              "properties": {
+                "miningMethod": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "enum": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "enum"
+                  ]
+                },
+                "frontierForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "homesteadForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "DAOForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "EIP150ForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "EIP158ForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "byzantiumForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "constantinopleForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "petersburgForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "istanbulForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "muirglacierForkBlock": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "chainId": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                }
+              },
+              "required": [
+                "miningMethod",
+                "frontierForkBlock",
+                "homesteadForkBlock",
+                "DAOForkBlock",
+                "EIP150ForkBlock",
+                "EIP158ForkBlock",
+                "byzantiumForkBlock",
+                "constantinopleForkBlock",
+                "petersburgForkBlock",
+                "istanbulForkBlock",
+                "muirglacierForkBlock",
+                "chainId"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "type",
+            "required",
+            "properties"
+          ]
+        },
+        "Genesis": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "required": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "properties": {
+              "type": "object",
+              "properties": {
+                "nonce": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "difficulty": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "author": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "timestamp": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "extraData": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "gasLimit": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                }
+              },
+              "required": [
+                "nonce",
+                "difficulty",
+                "author",
+                "timestamp",
+                "extraData",
+                "gasLimit"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "type",
+            "required",
+            "properties"
+          ]
+        },
+        "Accounts": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "patternProperties": {
+              "type": "object",
+              "properties": {
+                "^0x([0-9a-fA-F]{2}){20}$": {
+                  "type": "object",
+                  "properties": {
+                    "$ref": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "$ref"
+                  ]
+                }
+              },
+              "required": [
+                "^0x([0-9a-fA-F]{2}){20}$"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "type",
+            "patternProperties"
+          ]
+        },
+        "Account": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "properties": {
+              "type": "object",
+              "properties": {
+                "balance": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "code": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "nonce": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "pattern"
+                  ]
+                },
+                "storage": {
+                  "type": "object",
+                  "properties": {
+                    "patternProperties": {
+                      "type": "object",
+                      "properties": {
+                        "^0x([0-9a-fA-F]){40}$": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string"
+                            },
+                            "pattern": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "type",
+                            "pattern"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "^0x([0-9a-fA-F]){40}$"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "patternProperties"
+                  ]
+                }
+              },
+              "required": [
+                "balance",
+                "code",
+                "nonce",
+                "storage"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "type",
+            "properties"
+          ]
+        }
+      },
+      "required": [
+        "Params",
+        "Genesis",
+        "Accounts",
+        "Account"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "type",
+    "required",
+    "version",
+    "properties",
+    "definitions"
+  ]
+}
